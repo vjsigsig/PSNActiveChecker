@@ -7,7 +7,7 @@ use Mayfield\Action\Action;
 /**
  * コンソール上に指定の文字列を表示させるテスト用アクション
  */
-class Test extends Action
+final class Test extends Action
 {
 	public function execute()
 	{
